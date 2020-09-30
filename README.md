@@ -6,6 +6,6 @@ firmware.bin file is created in .pio/build/"ControllerName"/firmware.bin when th
 
 Copy the firmware.bin into SD card parent directory. 
 Power the board, and if USB is connected, open serial monitor and run following commands in this order;
-M502 //Default factory setting
+M502 //Default firmware setting
 M500 //Store setting into EEPROM
 M501 //Load setting from EEPROM
